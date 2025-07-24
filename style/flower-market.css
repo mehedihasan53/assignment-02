@@ -230,7 +230,6 @@ nav ul a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: 50px;
 }
 
 .bunch-title {
@@ -258,6 +257,40 @@ nav ul a {
   justify-content: center;
 }
 
+/* footer section */
+footer {
+  background-color: #fafbff;
+  padding: 50px 160px 0px 160px;
+  justify-content: space-between;
+  align-items: start;
+}
+.footer-logo {
+  max-width: 360px;
+}
+.footer-description {
+  margin-top: 16px;
+}
+.footer-links li,
+.footer-features li {
+  margin-bottom: 32px;
+}
+.footer-links:last-child,
+.footer-features:last-child {
+  margin-bottom: 0px;
+}
+.footer-links li,
+.footer-features li {
+  list-style: none;
+}
+.footer-links li a,
+.footer-features li a {
+  text-decoration: none;
+  color: #6b7280;
+}
+.social-media img {
+  margin-right: 24px;
+}
+
 /* responsive for mobile */
 @media screen and (max-width: 592px) {
   .navbar,
@@ -274,7 +307,8 @@ nav ul a {
     flex-direction: column-reverse;
   }
   .f-store,
-  .shop-now {
+  .shop-now,
+  footer {
     flex-direction: column;
   }
   .plants-section {
@@ -312,6 +346,9 @@ nav ul a {
   .flower-lover {
     margin-top: 40px;
   }
+  .flover-title {
+    font-size: 1.5rem;
+  }
   .shop-now {
     margin-top: 50px;
   }
@@ -346,5 +383,17 @@ nav ul a {
   }
   .shop-now {
     margin-bottom: 40px;
+  }
+  footer {
+    flex-wrap: wrap;
+    padding: 50px 20px;
+  }
+  .footer-links ul,
+  .footer-features ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .footer-description {
+    font-size: 1rem;
   }
 }
