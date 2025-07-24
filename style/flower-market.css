@@ -9,7 +9,7 @@
 }
 
 /* ------------------- */
-* {
+.margin {
   max-width: 1140px;
   margin: 0px auto;
 }
@@ -26,6 +26,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 120px;
 }
 nav li {
   list-style: none;
@@ -43,4 +44,48 @@ nav ul a {
   color: #252432;
 }
 
+/* banner-section */
+.banner {
+  align-items: center;
+}
+.banner-title {
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+.title-color {
+  color: #e95a08;
+}
+.banner-description {
+  font-size: 1.4rem;
+  color: #00000080;
+  margin-top: 13px;
+}
+.banner img {
+  width: 100%;
+}
 /* responsive for mobile */
+@media screen and (max-width: 592px) {
+  .navbar,
+  .banner-title,
+  .banner-description {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .navbar .hide {
+    display: none;
+  }
+  .navbar {
+    margin-bottom: 28px;
+  }
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .banner-description {
+    font-size: 0.9rem;
+  }
+}
