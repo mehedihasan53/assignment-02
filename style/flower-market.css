@@ -134,6 +134,9 @@ nav ul a {
   margin-top: 221px;
   position: relative;
 }
+.flower-store {
+  width: 100%;
+}
 .plants-section {
   margin-left: 60px;
 }
@@ -153,6 +156,68 @@ nav ul a {
   height: 286px;
   object-fit: contain;
 }
+.latest-deals {
+  margin-top: 133px;
+}
+
+/* shop now section */
+.bloom-plant {
+  width: 367px;
+  height: 201px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-bloom.png");
+  border-radius: 14px;
+  background-repeat: no-repeat;
+}
+.ana-plant {
+  width: 367px;
+  height: 197px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-ana.png");
+  border-radius: 14px;
+  background-repeat: no-repeat;
+}
+.one-img {
+  width: 753px;
+  height: 423.13px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-zabo.png");
+  border-radius: 22px;
+  background-repeat: no-repeat;
+}
+.shop-now {
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.shop-now a {
+  color: white;
+}
+.bloom-name,
+.ana-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-top: 65px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.zabo-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 172px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.s-btg {
+  font-weight: 600;
+}
+.zabo-btg {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
 
 /* responsive for mobile */
 @media screen and (max-width: 592px) {
@@ -160,7 +225,8 @@ nav ul a {
   .banner-title,
   .banner-description,
   .plants-description,
-  .card-section {
+  .card-section,
+  .plants-section {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -168,8 +234,16 @@ nav ul a {
   .banner {
     flex-direction: column-reverse;
   }
+  .f-store,
+  .shop-now {
+    flex-direction: column;
+  }
+  .plants-section {
+    margin-left: 0px;
+  }
 
-  .navbar .hide {
+  .navbar .hide,
+  .flower-lover .trusted-badge {
     display: none;
   }
   .navbar {
@@ -196,8 +270,26 @@ nav ul a {
   .btg-primary {
     width: 100%;
   }
-  /* .card {
-    width: 171px;
-    height: 340.5px;
-  } */
+  .flower-lover {
+    margin-top: 40px;
+  }
+  .shop-now {
+    margin-top: 50px;
+  }
+  .one-img {
+    width: 367px;
+    height: 197px;
+    margin-top: 20px;
+  }
+  .one-img .zabo-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+  .one-img .zabo-btg {
+    font-size: 1rem;
+    font-weight: 600;
+  }
 }
