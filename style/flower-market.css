@@ -219,6 +219,45 @@ nav ul a {
   font-weight: 600;
 }
 
+/* Join the colorful Bunch */
+.join-bunch {
+  width: 100%;
+  height: 533px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.bunch-title {
+  font-size: 3.1rem;
+  font-weight: 700;
+  padding-top: 200px;
+  margin-bottom: 23px;
+}
+.input {
+  width: 644px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  padding-left: 20px;
+}
+.btn {
+  width: 186px;
+  height: 52px;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+.form {
+  justify-content: center;
+}
+
 /* responsive for mobile */
 @media screen and (max-width: 592px) {
   .navbar,
@@ -291,5 +330,21 @@ nav ul a {
   .one-img .zabo-btg {
     font-size: 1rem;
     font-weight: 600;
+  }
+  .join-bunch {
+    width: 393px;
+    height: 275px;
+  }
+  .form {
+    flex-direction: row;
+    width: 321px;
+    margin: 0 auto;
+  }
+  .bunch-title {
+    font-size: 1.25rem;
+    padding-top: 110px;
+  }
+  .shop-now {
+    margin-bottom: 40px;
   }
 }
