@@ -122,6 +122,38 @@ nav ul a {
   font-weight: 600;
 }
 
+/* Flower & Plants Lover */
+.flover-title {
+  font-size: 3.13rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.flower-lover {
+  align-items: center;
+  margin-top: 221px;
+  position: relative;
+}
+.plants-section {
+  margin-left: 60px;
+}
+.flower-lover img {
+  width: 100%;
+}
+.plants-section ul li {
+  margin-top: 20px;
+}
+.trusted-badge {
+  position: absolute;
+  top: 2%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 286px;
+  height: 286px;
+  object-fit: contain;
+}
+
 /* responsive for mobile */
 @media screen and (max-width: 592px) {
   .navbar,
